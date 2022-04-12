@@ -27,7 +27,7 @@ html {
 	scroll-behavior: smooth;
 	background: #0e0e0e;
 	color: #f3f3f3;
-	font-size: 62,5%;
+	font-size: 62, 5%;
 	max-width: 1440px;
 	margin: 0 auto;
 	overflow-x: hidden;
@@ -699,41 +699,43 @@ strong {
 		font-size: 1em;
 	}
 
-	#about-skills, #projects, #contact {
+	#about-skills,
+	#projects,
+	#contact {
 		margin: 10px;
 		padding: 15px;
 	}
 
-	.projects-title-text{
+	.projects-title-text {
 		padding: 15px;
 	}
 
-	.projects-display{
+	.projects-display {
 		margin: 0;
 	}
 
-	.projects-display img{
+	.projects-display img {
 		display: none;
 	}
 
-	.display{
+	.display {
 		margin: 50px 20px;
 		padding: 15px 25px;
 	}
 
-	.display h1{
+	.display h1 {
 		font-size: 1.3em;
 	}
 
-	.display p{
-		font-size: .9em;
+	.display p {
+		font-size: 0.9em;
 	}
 
-	.display a{
+	.display a {
 		font-size: 1em;
 	}
 
-	form{
+	form {
 		width: 310px;
 	}
 }
