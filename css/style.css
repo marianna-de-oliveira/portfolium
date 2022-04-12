@@ -339,7 +339,7 @@ span::selection {
 	flex-direction: column;
 	justify-content: space-around;
 	/* max-width: 1300px; */
-	padding: 50px 60px;
+	padding: 50px 150px;
 	margin: 100px auto;
 	font-family: "Poppins", sans-serif;
 	font-weight: 400;
@@ -350,13 +350,15 @@ span::selection {
 }
 
 .projects-display {
-	/* max-width: 1300px; */
+	max-width: 1200px;
 	margin: 0 auto;
 }
 
 .description {
 	display: flex;
 	flex-direction: column;
+	justify-content: space-evenly;
+	height: 200px;
 }
 
 .display {
@@ -384,10 +386,9 @@ span::selection {
 	height: auto;
 	margin: 20px auto;
 	display: flex;
-	justify-content: space-between;
 	align-items: center;
 	flex-wrap: wrap;
-	/* max-width: 1300px; */
+	max-width: 1200px;
 	padding: 50px;
 	margin: 100px auto;
 }
