@@ -9,16 +9,18 @@
 }
 
 ::root {
+	/* 
 	--background: #0e0e0e;
 	--font-color: #f3f3f3;
 
-	/* cores padrão */
+	cores padrão 
 	--pink: #f8286f;
 	--blue: #0dccff;
 	--purple: #5808fb;
 	--dark-pink: #380919;
 	--dark-blue: #033340;
 	--dark-purple: #15023b;
+	*/
 }
 
 /* CONFIGS GERAIS */
@@ -30,11 +32,11 @@ html {
 	font-size: 62, 5%;
 	max-width: 1440px;
 	margin: 0 auto;
-	overflow-x: hidden;
+	/*overflow-x: hidden;*/
 }
 
 body::-webkit-scrollbar {
-	width: 10px;
+	width: 15px;
 	border-left: 1px solid #f8286f;
 	border-right: 1px solid #f8286f;
 }
