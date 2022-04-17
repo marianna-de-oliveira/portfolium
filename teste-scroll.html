@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        ScrollReveal({ reset: true });
+    </script>
+
+
+</head>
+
+<body>
+    <div class="skills">
+        <h1>my skills</h1>
+        <!-- o plano é: quando alguem der hover nos cards, aparecer um card ao lado explicando o que cada coisa faz (?????) -->
+        <div class="skill-1">
+            <i class="fa-brands fa-html5"></i>
+            <span>HTML</span>
+        </div>
+
+        <div class="skill-2">
+            <span>CSS</span>
+            <i class="fa-brands fa-css3-alt"></i>
+        </div>
+
+        <div class="skill-3">
+            <i class="fa-brands fa-js"></i>
+            <span>JavaScript</span>
+        </div>
+
+        <div class="skill-4">
+            <span>GitHub</span>
+            <i class="fa-brands fa-github"></i>
+        </div>
+    </div>
+
+    <script>
+        ScrollReveal().reveal('h1');
+        ScrollReveal().reveal('.skill-1', '.skill-2', '.skill-3', '.skill-4', { delay: 200 });
+        // ScrollReveal().reveal('span', { delay: 1000 });
+        ScrollReveal().reveal('i', { interval: 2000 });
+    </script>
+</body>
+
+</html>
