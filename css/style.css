@@ -35,8 +35,8 @@ html {
 
 body::-webkit-scrollbar {
 	width: 10px;
-	border-left: 1px solid #f8286f;
-	border-right: 1px solid #f8286f;
+	/* border-left: 1px solid #f8286f;
+	border-right: 1px solid #f8286f;*/
 }
 
 body::-webkit-scrollbar-thumb {
