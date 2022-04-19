@@ -65,7 +65,6 @@ form > h1,
 .contact h1,
 form h1,
 .social h1 {
-	/* margin-top: 100px; */
 	letter-spacing: 0.13em;
 	margin-bottom: 2em;
 	transition: all 0.5s ease-in-out;
@@ -334,8 +333,6 @@ span::selection {
 
 /* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
-/* INICIO PROJECTS */
-
 .projects-title-text {
 	display: flex;
 	flex-direction: column;
@@ -382,7 +379,7 @@ span::selection {
 	margin-right: 50px;
 }
 
-/* FIM PROJECTS */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 #contact {
 	height: auto;
@@ -541,21 +538,6 @@ form button:hover {
 	transition: all 265ms ease-in;
 }
 
-/* .icons > a > i{
-    font-size: 2.5em;
-    color: #00c8ff;
-    transition: .3s ease-in-out;
-    background-color: #0e0e0e;
-    cursor: pointer;
-    transition: 0.5s ease-in-out;
-}
-
-.icons > a > i:hover{
-    transform: translateY(-0.3em);
-    color: #00c8ff;
-    box-shadow: 0 0.7em 0.7em -0.4em #00c8ff;
-}  */
-
 form button:hover {
 	transform: translateY(-0.3em);
 	letter-spacing: 2px;
@@ -563,9 +545,7 @@ form button:hover {
 	box-shadow: 0 0.7em 0.7em -0.4em #ff0055;
 }
 
-/* FIM CONTACT */
-
-/* INICIO FOOTER */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 footer {
 	text-align: center;
@@ -583,7 +563,7 @@ strong {
 	color: #00c8ff;
 }
 
-/* FIM FOOTER */
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
 
 @media (max-width: 768px) {
 	.menu {
